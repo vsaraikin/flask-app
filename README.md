@@ -1,5 +1,10 @@
 # Flask Web App with Database
 
+Note taking web-application with authorization and a database 
+
+![Alt text](examples/example.png?raw=true "Login page screen")
+
+
 ## Setup & Installtion
 
 ```bash
