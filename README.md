@@ -7,9 +7,23 @@ Note taking web-application with authorization and a database
 
 ## Setup & Installtion
 
+
+
 ```bash
 git clone https://github.com/vsaraikin/flask-app
 ```
+
+You can run the app <b>locally</b> or via <b>Docker</b> (which is recommended)
+
+<b>Docker:</b>
+
+```bash
+docker-compose up
+```
+
+Then click [localhost:5000](http://localhost:5000)
+
+Or if you prefer to <b>run locally</b>, you should create ```venv``` via terminal:
 
 If Windows:
 
@@ -24,12 +38,12 @@ python3 -m venv my_env
 source my_env/bin/activate
 ```
 
-## Installing requierments
+Installing requierments
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run locally
+Run locally
 ```bash
 python main.py
 ```
