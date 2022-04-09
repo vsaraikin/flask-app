@@ -1,3 +1,4 @@
 .vscode
 app/website/__pycache__
 app/website/database.db
+.mypy_cache
