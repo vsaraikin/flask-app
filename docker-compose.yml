@@ -1,0 +1,14 @@
+version: '3'
+services:
+  flask:
+    build: .
+    container_name: flask-app
+    # Создание переменных окружения в контейнере
+    environment:
+      - PYTHONUNBUFFERED=True                   
+    restart: on-failure
+    # Открываем порт в контейнер
+    # Порт, который будет смотреть наружу : порт который используется внутри контейнера
+    ports:
+      - "5000:5000"
+    command: python app/main.py
