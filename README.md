@@ -1,4 +1,4 @@
-# Flask Web App with Database
+# Flask Web App
 
 Note taking web-application with authorization and a database 
 
